@@ -27,7 +27,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
 app.use(cookieParser());
-app.use(express.static(process.env.CLIENT_PATH || '../AutoViewerClient/build'));
+app.use(express.static(process.env.CLIENT_PATH || '../DubinsViewerClient/build'));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
