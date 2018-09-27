@@ -1,0 +1,21 @@
+{
+  "name": "autoviewer",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "create-react-app": "^1.5.2",
+    "debug": "^2.6.9",
+    "express": "~4.16.0",
+    "http-error-constructor": "^0.1.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "node-ipc": "^9.1.1",
+    "pug": "^2.0.0-beta11",
+    "yargs": "^11.0.0"
+  }
+}
