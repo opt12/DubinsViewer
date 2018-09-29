@@ -24,7 +24,7 @@ To build this REACT-App, switch into the DubinsViewerClient directory:
 
 `cd DubinsViewerClient`
 
-There use the command `npm install` to install all dependencies. Afterwards use `npm run build`to build the bundle into the `./build`directory from where it is served to any modern browser.
+There use the command `npm install` to install all dependencies. Afterwards use `npm run build` to build the bundle into the `./build` directory from where it is served to any modern browser.
 
 ## Further Usage
 After all is setup and built, you only need to run 
