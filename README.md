@@ -7,7 +7,7 @@ This Software consists of two parts belonging together:
   * the DubinsViewerClient
   
 ## DubinsViewerServer
-The DubinsViewerServer component tries to connect to the POSIX-socket opened by the DubinsPilot Software on the same machine, the DubinsViewerServer is running on. It receives the relevant flight data from there and provides it by means of a REST-API to the DubinsViewerClient component.
+The DubinsViewerServer component tries to connect to the POSIX-socket opened by the [DubinsPilot](https://github.com/opt12/DubinsPilot)-Software on the same machine, the DubinsViewerServer is running on. It receives the relevant flight data from there and provides it by means of a REST-API to the DubinsViewerClient component.
 
 To build this software, switch into the DubinsViewerServer directory:
 
@@ -30,6 +30,8 @@ There use the command `npm install` to install all dependencies. Afterwards use 
 After all is setup and built, you only need to run 
 
 `npm start`from within the `./DubinsViewerServer`directory.
+
+Of course, this DubinsViewer App is only useful if the [DubinsPilot](https://github.com/opt12/DubinsPilot)-Software itself is also running and used to control a plane in X-Plane.
 
 **Have Fun!**
 
