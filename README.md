@@ -1,5 +1,5 @@
 # DubinsViewer
-The JS Server and Client for visualizing the Data of DubinsPilot
+The JS Server and Client for visualizing the Data of [DubinsPilot](https://github.com/opt12/DubinsPilot)
 
 
 This Software consists of two parts belonging together:
