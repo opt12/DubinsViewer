@@ -69,7 +69,7 @@ const getConnectedIPC = () => {
                 //         //TODO Hier kann ich meinen autopiloten sonst auch selber starten.
                 //
                 //         try {
-                //             child = exec(process.env.TERMINAL+ process.env.AUTOPILOT+ " -e",
+                //             child = exec(process.env.TERMINAL+ process.env.DUBINSPILOT+ " -e",
                 //                 function (error, stdout, stderr) {
                 //                     console.log('stdout: ' + stdout);
                 //                     console.log('stderr: ' + stderr);
@@ -84,8 +84,8 @@ const getConnectedIPC = () => {
                 //             console.log("could not start Autopilot-applikation")
                 //             console.log("Eroor: ", e);
                 //             console.log("I'll keep trying.")
-                //             console.log("consider using the AUTOPILOT command line argument to fix this path:")
-                //             console.log(process.env.TERMINAL + process.env.AUTOPILOT)
+                //             console.log("consider using the DUBINSPILOT command line argument to fix this path:")
+                //             console.log(process.env.TERMINAL + process.env.DUBINSPILOT)
                 //         }
                 //     }
                 // )

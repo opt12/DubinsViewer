@@ -11,13 +11,13 @@ var http = require('http');
 //here we can figure out which application is our Autopilot
 const argv = require('yargs').argv;
 if(argv.autopilot){
-    process.env.AUTOPILOT = argv.autopilot;
+    process.env.DUBINSPILOT = argv.dubinspilot;
 } else {
-    process.env.AUTOPILOT = "/media/Win_D/Fernuni/0001_Bachelor_ELA_embedded/Software/Autopilot/destination";
-    console.log('AUTOPILOT defaults to: ', process.env.AUTOPILOT);
-    console.log('to define the path to the AUTOPILOT application to be used,\nplease specify the --AUTOPILOT="..." argument');
+    process.env.DUBINSPILOT = "../DubinsPilot/destination";
+    console.log('DUBINSPILOT defaults to: ', process.env.DUBINSPILOT);
+    console.log('to define the path to the DUBINSPILOT application to be used,\nplease specify the --DUBINSPILOT="..." argument');
     console.log('use:');
-    console.log('npm start -- --AUTOPILOT="..."');
+    console.log('npm start -- --DUBINSPILOT="..."');
 }
 
 if(argv.clientpath){
